@@ -1,4 +1,4 @@
-[![NativeScript](./tools/graphics/cover.png)](https://nativescript.org)
+[![NativeScript](https://raw.githubusercontent.com/NativeScript/NativeScript/main/tools/graphics/cover.png)](https://nativescript.org)
 
 ## @nativescript/*
 
