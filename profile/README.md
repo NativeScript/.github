@@ -32,7 +32,6 @@
 - [NativeScript Home](https://nativescript.org)
 - [NativeScript Tutorials](https://docs.nativescript.org/tutorial/)
 - [NativeScript documentation](https://docs.nativescript.org/)
-
 - [NativeScript on Twitter](http://twitter.com/NativeScript)
 - [NativeScript on Discord](https://nativescript.org/discord)
 - [NativeScript on Stack Overflow](http://stackoverflow.com/questions/tagged/nativescript)
@@ -40,13 +39,13 @@
 ## More Open Source
 
 - [iOS Runtime](https://github.com/NativeScript/ios)
-	NativeScript iOS Runtime: Empowers JavaScript code to be executed on iOS devices written in a mix of C++, Objective-C, and Swift.
+  NativeScript iOS Runtime: Empowers JavaScript code to be executed on iOS devices written in a mix of C++, Objective-C, and Swift.
 - [Android Runtime](https://github.com/NativeScript/android)
-	NativeScript Android Runtim: Empowers JavaScript code to be executed on Android devices written in a mix of C++, Java and Kotlin.
+  NativeScript Android Runtim: Empowers JavaScript code to be executed on Android devices written in a mix of C++, Java and Kotlin.
 - [CLI](//github.com/NativeScript/nativescript-cli)
-	NativeScript command-line interface empowering you to create, build, and run apps using NativeScript.
+  NativeScript command-line interface empowering you to create, build, and run apps using NativeScript.
 - [Docs](//github.com/NativeScript/docs-new)
-	NativeScript documentation available at <http://docs.nativescript.org/> written in Markdown.
+  NativeScript documentation available at <http://docs.nativescript.org/> written in Markdown.
 - [Plugins](https://github.com/NativeScript/plugins)
   A [plugin workspace](https://docs.nativescript.org/plugins/plugin-workspace-guide.html) with several useful plugins.
 - [Firebase](https://github.com/NativeScript/firebase)
