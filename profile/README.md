@@ -23,7 +23,7 @@
 - [TypeScript Starter](https://nativescript.new/typescript)
 - [Angular Starter](https://nativescript.new/angular)
 - [Vue 2.x Starter](https://nativescript.new/vue)
-- [Vue 3.x Starter](https://stackblitz.com/fork/github/nativescript-vue/nativescript-vue/tree/main/packages/stackblitz-template?file=src%2Fcomponents%2FHome.vue&title=NativeScript%20Starter%20Vue3%20Beta)
+- [Vue 3.x Starter](https://nativescript.new/vue3)
 - [Svelte Starter](https://nativescript.new/svelte)
 - [React Starter](https://nativescript.new/react)
 
