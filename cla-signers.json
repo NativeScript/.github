@@ -1,0 +1,1177 @@
+{
+	"version": 1,
+	"document": "docs/legal/individual-cla.md",
+	"allowlist": {
+		"github": [
+			"alexziskind1",
+			"ammarahm-ed",
+			"bradmartin",
+			"CatchABus",
+			"copilot",
+			"cursoragent",
+			"davecoffin",
+			"DjDeveloperr",
+			"edusperoni",
+			"facetious",
+			"farfromrefug",
+			"janoshrubos",
+			"jcassidyav",
+			"NathanWalker",
+			"nativescript-oss",
+			"rigor789",
+			"shirakaba",
+			"shiv19",
+			"tdermendjiev",
+			"thelinuxfoundation",
+			"triniwiz",
+			"vmutafov",
+			"williamjuan027",
+			"wSedlacek"
+		],
+		"email": [
+			"noreply@anthropic.com"
+		]
+	},
+	"signers": [
+		{
+			"github": "rigor789",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "davecoffin",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "triniwiz",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "bradmartin",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "NathanWalker",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "janoshrubos",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "shiv19",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "jcassidyav",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "dangrima90",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "farfromrefug",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "edusperoni",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "francoiscx",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "PetroSuch",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "jamescodesthings",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "madmas",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "bgrand-ch",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "maamarcos",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "aurium",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "Archez",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "siewedu",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "msaravitz",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "maxfriedmann",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "BenSjoberg",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "jdnichollsc",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "herefishyfish",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "cjohn001",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "coolboy0961",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "alexist",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "darind",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "SergeyMell",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "camtthompson",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "Rob4226",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "Adarshjaiss",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "thefool76",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "DimitrisRK",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "PeterStaev",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "pekevski",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "EdJones",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "felixkrautschuk",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "neotrouz",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "dyazincahya",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "vallemar",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "sebj54",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "ArthurMJ96",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "valera1401",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "facetious",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "hateart",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "Hard-Coder05",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "garanews",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "wenzdey",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "kinshukdua",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "wSedlacek",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "timdoege",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "kielsoft",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "fishmandev",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "crowmagnumb",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "guillemc23",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "williamjuan027",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "amaaniqbal",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "abhayastudios",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "halfnelson",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "sryze",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "kanhaiyajiraj",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "wanderer163",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "eltociear",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "lekhmanrus",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "keerl",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "AdamAtri",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "marckassay",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "azriel46d",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "Langers8",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "suchorski",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "heyman",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "canmertc",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "AnilSeervi",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "LucSkywalKING",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "soscler",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "Anim-101",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "fklingler",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "zeejay09",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "kakha13",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "asharghi",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "brianrclow",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "MrSnoozles",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "winescout",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "afoncatti",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "kanclalg",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "iamrahulmahato",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "Leon0824",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "mayerlench",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "tdermendjiev",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "lambourn",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "minhnhut",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "agonper",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "fpattis",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "alexander-mai",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "JakeAi",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "isapir",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "hendrickson-tyler",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "dgmachado",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "cosmanAgraz",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "CatchABus",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "markoImake",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "mukaschultze",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "nikotm",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "oliverphaser",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "cdroege",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "mrwrighty",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "Attacktive",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "heyteacher",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "romanbdotcom",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "epizzarello",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "tommag21",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "Acksell",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "grigala",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "jarrodwhitley",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "JuNicky",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "peterhauke",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "StashBank",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "reneroboter",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "achrafbardan",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "fpaaske",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "comporell",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "daveychu",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "darklight365",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "DmitrySharabin",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "ixap2i",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "LewisSmallwood",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "delaneyb",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "michizhou",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "ammarahm-ed",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "mohd-akram",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "sublime392",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "biswadeep25",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "INiiS",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "vmutafov",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "shirakaba",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "jgmedialtd",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "kefahB",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "pianetarosso",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "prabudevarrajan",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "prabudevarrajan1",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "timgates42",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "danielwierden",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "redek91",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "iamabs2001",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "piyush280599",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "LordMilutin",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "prestopasto",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "kunaalmangal",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "ptomato",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "stumpykilo",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "caitp",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "alexziskind1",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "tralves",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "henrytongv",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "NicholasSmilovic",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "u007",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "mastashake08",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "rvanzon",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "kmahelona",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "miladfm",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "darko-bw",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "0o001",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "Log3n",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "nnguye47",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "healerjoy",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "aryzing",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "SeanKelly369",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "Av1nag",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "Smartmind12",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "LukeHowellDev",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "jkod",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "genaris",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "sitefinitysteve",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "bennothommo",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "mischahaenen",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "badrazizi",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "achou11",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "flipperlite",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "VatamanuBogdan",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "ligaz",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "djmaze",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "jasongitmail",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "gabrielbiga",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "jkatins",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "VictorDev200",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "logikgate",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "apburgess",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "jnorkus",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "rban-newday",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "chimmelb",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "sjsadowski",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "rohhaan12",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "insytes",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "rdlauer",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "b44rd",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "IlIAntonIlI",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "mleleux-heykiddo",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "GenaAiv",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "996666925",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "srghma",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "db-r-hashimoto",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "thearnabsaha",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "Pastoray",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "matthewfleming",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "codeprefect",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "shridmishra",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "maitreyyi",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "ajitzero",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "NanditaPatil-dotcom",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "rajpragur",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "VeinDevTtv",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "vardhan30016",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "jmarcher",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "zaki-moh",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "Tofandel",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "jzgoda",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "DjDeveloperr",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "obedm503",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "volkanatalan",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "aleclarson",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "rafaelaugustos",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "martinkruusement",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "ZainnQureshii",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "anjak03",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "amirthn6533",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		},
+		{
+			"github": "Ombuweb",
+			"signedAt": "openjsf-cla-form",
+			"cla": "individual"
+		}
+	]
+}
