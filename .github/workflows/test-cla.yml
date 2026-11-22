@@ -1,0 +1,38 @@
+name: 🧪 Test CLA Scripts
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: 🧪 Unit tests (check-cla)
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: 📦 Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: 📜 Checkout org CLA signatures
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: cla-signatures
+          path: org-cla-signatures
+          persist-credentials: false
+
+      - name: 🟢 Setup Node
+        uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: '24'
+
+      - name: 🧪 Run CLA unit tests and validate org-cla-signatures
+        run: |
+          node --test scripts/check-cla.test.mjs
+          node -e 'import("./scripts/check-cla.mjs").then(async m => { const fs = await import("node:fs/promises"); const f = m.parseClaSignersFile(await fs.readFile("org-cla-signatures/cla-signers.json", "utf8")); console.log("Validated cla-signers.json — allowlisted:", f.allowlist.github.length, "signers:", f.signers.length); })'

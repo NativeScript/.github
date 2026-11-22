@@ -1,0 +1,182 @@
+name: 🔄 Sync Org CLA Signers
+
+on:
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  sync:
+    name: 🔄 Sync CLA signers across NativeScript org
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    concurrency:
+      group: cla-signatures-NativeScript/.github
+      cancel-in-progress: false
+    permissions:
+      contents: write
+    steps:
+      - name: 📦 Checkout CLA hub
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: master
+          path: cla-hub
+          persist-credentials: false
+
+      - name: 📜 Checkout org CLA signatures
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: cla-signatures
+          path: org-cla-signatures
+
+      - name: 🟢 Setup Node
+        uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: '24'
+
+      - name: 🔎 Gather new signers across NativeScript org
+        uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd # v8.0.0
+        with:
+          script: |
+            const fs = require('node:fs/promises');
+            const phrase = 'I have read the CLA and I hereby sign the CLA';
+            const orgName = context.repo.owner;
+
+            const signingComments = [];
+            const importedSigners = [];
+
+            // 1. Search recently merged PRs across the entire NativeScript org that contain the signing phrase
+            try {
+              const searchRes = await github.rest.search.issuesAndPullRequests({
+                q: `org:${orgName} is:pr is:merged "${phrase}"`,
+                sort: 'updated',
+                order: 'desc',
+                per_page: 50,
+              });
+
+              for (const item of searchRes.data.items) {
+                const parts = item.repository_url.split('/');
+                const repo = parts.at(-1);
+                const owner = parts.at(-2);
+
+                const eligibleLogins = new Set();
+                if (item.user?.login) eligibleLogins.add(item.user.login.toLowerCase());
+
+                const commits = await github.paginate(
+                  github.rest.pulls.listCommits,
+                  {
+                    owner,
+                    repo,
+                    pull_number: item.number,
+                    per_page: 100,
+                  },
+                );
+                for (const commit of commits) {
+                  if (commit.author?.login) {
+                    eligibleLogins.add(commit.author.login.toLowerCase());
+                  }
+                }
+
+                const comments = await github.paginate(
+                  github.rest.issues.listComments,
+                  {
+                    owner,
+                    repo,
+                    issue_number: item.number,
+                    per_page: 100,
+                  },
+                );
+                for (const comment of comments) {
+                  const login = comment.user?.login;
+                  if (
+                    comment.user?.type !== 'User' ||
+                    !login ||
+                    !eligibleLogins.has(login.toLowerCase())
+                  ) {
+                    continue;
+                  }
+                  signingComments.push({
+                    login,
+                    createdAt: comment.created_at,
+                    body: comment.body ?? '',
+                  });
+                }
+              }
+            } catch (err) {
+              core.warning(`Org PR search encountered error: ${err.message}`);
+            }
+
+            // 2. Also harvest any repo-local cla-signatures branches on recently pushed public repos
+            try {
+              const repos = await github.rest.repos.listForOrg({
+                org: orgName,
+                type: 'public',
+                sort: 'pushed',
+                direction: 'desc',
+                per_page: 40,
+              });
+              for (const r of repos.data) {
+                if (r.archived || r.fork || r.name === '.github') continue;
+                try {
+                  const res = await github.rest.repos.getContent({
+                    owner: orgName,
+                    repo: r.name,
+                    path: 'cla-signers.json',
+                    ref: 'cla-signatures',
+                  });
+                  if (res.data && 'content' in res.data && res.data.content) {
+                    const parsed = JSON.parse(
+                      Buffer.from(res.data.content, 'base64').toString('utf8'),
+                    );
+                    if (Array.isArray(parsed.signers)) {
+                      importedSigners.push(...parsed.signers);
+                    }
+                  }
+                } catch (err) {
+                  if (err.status !== 404) {
+                    core.info(`Skipped ${r.name} cla-signatures: ${err.message}`);
+                  }
+                }
+              }
+            } catch (err) {
+              core.warning(`Repo cla-signatures scan encountered error: ${err.message}`);
+            }
+
+            signingComments.sort((a, b) => a.createdAt.localeCompare(b.createdAt));
+            await fs.writeFile(
+              'org-signing-comments.json',
+              `${JSON.stringify(signingComments, null, '\t')}\n`,
+            );
+            await fs.writeFile(
+              'org-imported-signers.json',
+              `${JSON.stringify(importedSigners, null, '\t')}\n`,
+            );
+
+      - name: 📝 Apply new signers to org cla-signers.json
+        id: record
+        run: |
+          node cla-hub/scripts/check-cla.mjs \
+            --signers org-cla-signatures/cla-signers.json \
+            --record-comments-json org-signing-comments.json \
+            --import-signers-json org-imported-signers.json > cla-sync-output.txt
+          cat cla-sync-output.txt
+          grep -E '^(added|github)=' cla-sync-output.txt >> "$GITHUB_OUTPUT"
+
+      - name: 🌱 Commit and push org signers
+        if: steps.record.outputs.added == 'true'
+        working-directory: org-cla-signatures
+        env:
+          CLA_LOGINS: ${{ steps.record.outputs.github }}
+        run: |
+          set -euo pipefail
+          git add cla-signers.json
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m "Record CLA signers: @${CLA_LOGINS//,/, @}"
+          git push origin HEAD:refs/heads/cla-signatures
