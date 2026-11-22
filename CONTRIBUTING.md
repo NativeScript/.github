@@ -32,7 +32,7 @@ Here are some guides on how to do that:
 
 Before you begin:
 
-- Read and sign the [NativeScript Contribution License Agreement](http://www.nativescript.org/cla).
+- Read the [NativeScript Contributor License Agreement (CLA)](https://github.com/NativeScript/.github/blob/master/CLA.md). If you haven't signed before, our `✍️ CLA` bot will prompt you on your pull request to sign by commenting `I have read the CLA and I hereby sign the CLA`.
 - Make sure there is an issue for the bug or feature you will be working on.
 
 Following these steps is the best way to get you code included in the project:
@@ -67,7 +67,7 @@ git checkout -b <my-fix-branch> main
 2. Before you submit your PR:
 
    - Rebase your changes to the latest main: `git pull --rebase upstream main`.
-   - Ensure all unit test are green for Android and iOS. Check [running unit tests](DevelopmentWorkflow.md#running-unit-tests).
+   - Ensure all unit tests are green. Check [running unit tests](https://github.com/NativeScript/NativeScript/blob/main/tools/notes/DevelopmentWorkflow.md#unit-testing).
 
 3. Push your fork. If you have rebased you might have to use force-push your branch:
 
