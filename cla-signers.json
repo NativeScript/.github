@@ -1177,6 +1177,11 @@
 			"github": "UlisesGascon",
 			"signedAt": "2026-11-23",
 			"cla": "individual"
+		},
+		{
+			"github": "mrichtsfeld",
+			"signedAt": "2026-11-25",
+			"cla": "individual"
 		}
 	]
 }
